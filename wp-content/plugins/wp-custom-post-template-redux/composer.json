@@ -1,0 +1,17 @@
+{
+  "name": "morgan-and-morgan/wp-custom-post-template",
+  "description": "wp-custom-post-template",
+  "keywords": ["wordpress"],
+  "license": "GPL-3.0+",
+  "authors": [
+    {
+      "name": "Mat Gargano",
+      "email": "mgargano@forthepeople.com"
+    },
+    {
+      "name": "DotsquaresLtd",
+      "email": "idk@email.com"
+    }
+  ],
+  "type": "wordpress-plugin"
+}
