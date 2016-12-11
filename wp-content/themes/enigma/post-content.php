@@ -29,7 +29,7 @@
 		</div>
 		<?php endif; ?>
 		<div class="enigma_fuul_blog_detail_padding">
-		<h2><?php if(!is_single()) {?><a href="<?php the_permalink(); ?>"><?php } ?><?php the_title(); ?></a></h2>
+		<!--<h2><?php if(!is_single()) {?><a href="<?php the_permalink(); ?>"><?php } ?><?php the_title(); ?></a></h2>-->
 		<!--<div class="row">
 		<div class="col-md-6 col-sm-3">
 		<?php if(get_the_tag_list() != '') { ?>
