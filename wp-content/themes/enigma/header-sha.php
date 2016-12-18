@@ -27,7 +27,7 @@
                 <div class="vc_column-inner ">
                     <div class="wpb_wrapper">
                         <div class="aio-icon-component  infoBoxMoh style_1">
-                            <a class="aio-icon-box-link" href="http://moh.am" target=" _blank">
+                            <a class="aio-icon-box-link" href="<?php echo esc_url( home_url( '/' ) ); ?>">
                                 <div class="aio-icon-box left-icon" style="">
                                     <div class="aio-icon-left">
                                         <div class="ult-just-icon-wrapper ">
@@ -39,8 +39,8 @@
                                         </div>
                                     </div>
                                     <div class="aio-ibd-block">
-                                        <div class="aio-icon-description" style="font-size:15.4px;color:#777777;"><p></p>
-                                        <h3><span style="font-size: 8pt;">ՀԱՅԱՍՏԱՆԻ ՀԱՆՐԱՊԵՏՈՒԹՅԱՆ ԱՌՈՂՋԱՊԱՀՈՒԹՅԱՆ ՆԱԽԱՐԱՐՈՒԹՅՈՒՆ</span></h3>
+                                        <div class="aio-icon-description"><p></p>
+                                        <h3><span style="font-size: 20px !important; color: #2A5CAA">ՊԵՏԱԿԱՆ ԱՌՈՂՋԱՊԱՀԱԿԱՆ ԳՈՐԾԱԿԱԼՈւԹՅՈւՆ</span></h3>
                                         <p></p>
                                         </div> <!-- description -->
                                     </div> <!-- aio-ibd-block -->
@@ -84,3 +84,8 @@
 			</nav>
 		</div>
 	</div>
+	
+	<!--Static Questions -->
+	<a id="feedBack">	
+		<i class="Defaults-question-circle"></i>
+	</a>	
