@@ -2614,7 +2614,9 @@ form.bop-nav-search div #s {
 	border-radius:5px;
 	display:block;
 	cursor:pointer;
+	z-index:10000;
 }
+
 
 #feedBack  i {
 	font-size:24px;

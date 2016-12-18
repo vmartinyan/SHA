@@ -86,6 +86,6 @@
 	</div>
 	
 	<!--Static Questions -->
-	<a id="feedBack">	
+	<a id="feedBack" href="<?php echo esc_url( site_url( '/QCC' ) ); ?>">	
 		<i class="Defaults-question-circle"></i>
 	</a>	
