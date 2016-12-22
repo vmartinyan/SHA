@@ -29,6 +29,7 @@ define('DB_USER', 'sha');
 define('DB_PASSWORD', 'Temp1234');
 
 /** MySQL hostname */
+/*for 109.75.36.168*/
 define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
