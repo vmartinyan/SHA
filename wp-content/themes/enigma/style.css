@@ -2533,15 +2533,15 @@ padding-top: 20px;
 }
 
 .vc_custom_heading h4 {
-    color:#ffffff !important;
+    color:#000 !important;
 }
 
 .vc_btn3 {
   color: #000 !important;
   font-style: italic;
-  background-color: #ddd !important;
-  border: 1px solid #ccc !important;
-  padding: 2px 7px !important;
+  background-color: #3363B5 !important;
+  border: 1px solid #1C3562 !important;
+  padding: 3px 7px !important;
 }
 
 .wpb_content_element p {
@@ -2569,7 +2569,7 @@ padding-top: 20px;
 }
 
 .date-color {
-    color: #fff !important;
+    color: #000 !important;
     font-style: italic;
 }
 
