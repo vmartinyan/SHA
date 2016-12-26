@@ -51,6 +51,15 @@
             }
             
         })
+		
+		/* main height*/
+		 var windowHeight = jQuery(window).height();
+		 var headerHeight = jQuery(".header-sha").height();
+		 var navHeight = jQuery(".navigation_menu").height();
+		 var footerHeight = jQuery(".footer-sha").height();
+		 var mainContHeight = windowHeight - headerHeight - navHeight - footerHeight - 101;
+		 jQuery(".insideBackground").css("min-height", mainContHeight);
+
 	});	
 
 	
