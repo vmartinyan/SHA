@@ -43,7 +43,7 @@
 		<?php } ?>
 		</div>
 		</div>-->
-		<?php the_content( __( 'Read More' , 'enigma' ) ); 
+		<?php the_content( __( 'Կարդալ ավելին' , 'enigma' ) ); 
 		$defaults = array(
               'before'           => '<div class="enigma_blog_pagination"><div class="enigma_blog_pagi">' . __( 'Pages:','enigma'  ),
               'after'            => '</div></div>',
@@ -51,8 +51,8 @@
 	          'link_after'       => '',
 	          'next_or_number'   => 'number',
 	          'separator'        => ' ',
-	          'nextpagelink'     => __( 'Next page'  ,'enigma' ),
-	          'previouspagelink' => __( 'Previous page' ,'enigma'),
+	          'nextpagelink'     => __( 'Հաջորդ'  ,'enigma' ),
+	          'previouspagelink' => __( 'Նախորդ' ,'enigma'),
 	          'pagelink'         => '%',
 	          'echo'             => 1
 	          );

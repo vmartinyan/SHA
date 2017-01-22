@@ -187,7 +187,7 @@
 	// Read more tag to formatting in blog page 
 	function weblizar_content_more($more)
 	{  							
-	   return '<div class="blog-post-details-item"><a class="enigma_blog_read_btn" href="'.get_permalink().'"><i class="fa fa-plus-circle"></i>"'.__('Read More', 'enigma' ).'"</a></div>';
+	   return '<div class="blog-post-details-item"><a class="enigma_blog_read_btn" href="'.get_permalink().'"><i class="fa fa-plus-circle"></i>"'.__('Կարդալ ավելին', 'enigma' ).'"</a></div>';
 	}   
 	add_filter( 'the_content_more_link', 'weblizar_content_more' );
 	
@@ -479,6 +479,16 @@ $query->set('post_type', 'post');
 return $query;
 }
 add_filter('pre_get_posts','remove_pages_from_search');
+
+
+/* function SearchFilter($query) {
+if ($query->is_search) {
+$query->set('post_type', 'post');
+}
+return $query;
+}
+
+add_filter('pre_get_posts','SearchFilter'); */
 
 ?>
 

@@ -2349,8 +2349,8 @@ function get_posts_nav_link( $args = array() ) {
 	if ( !is_singular() ) {
 		$defaults = array(
 			'sep' => ' &#8212; ',
-			'prelabel' => __('&laquo; Previous Page'),
-			'nxtlabel' => __('Next Page &raquo;'),
+			'prelabel' => __('&laquo; Նախորդ'),
+			'nxtlabel' => __('Հաջորդ &raquo;'),
 		);
 		$args = wp_parse_args( $args, $defaults );
 

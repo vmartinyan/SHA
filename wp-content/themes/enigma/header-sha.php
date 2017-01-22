@@ -17,7 +17,7 @@
 	<?php } ?>
 	<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="screen" />
 	<?php wp_head(); ?>
-</head>
+	</head>
 <body <?php body_class(); ?>>
 <div>
 	<!-- Header Section -->

@@ -1,10 +1,11 @@
-<?php get_header('sha'); ?>
+<?php //Template Name:Simple Page
+get_header('search');?>
 <div class="enigma_header_breadcrum_title">	
 	<div class="container">
 		<div class="row">
 		<?php if(have_posts()) :?>
 			<div class="col-md-12">
-			<h1><?php printf( __( 'Search Results for: %s', 'enigma' ), '<span>' . get_search_query() . '</span>'  ); ?>
+			<h1><?php printf( __( 'Որոնման արդյունքում գտնվել են: %s', 'enigma' ), '<span>' . get_search_query() . '</span>'  ); ?>
 			</h1>
 			</div>
 		<?php endif; ?>
@@ -12,7 +13,7 @@
 		</div>
 	</div>	
 </div>
-<div class="container">	
+<div class="container insideBackground">	
 	<div class="row enigma_blog_wrapper">
 	<div class="col-md-8">
 	<?php 
